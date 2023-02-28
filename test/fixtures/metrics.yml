@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  timestamp: 2023-02-28
+  value: 1
+  name: MyString
+
+two:
+  timestamp: 2023-02-28
+  value: 1
+  name: MyString
