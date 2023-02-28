@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_28_184811) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_28_191054) do
   create_table "metrics", force: :cascade do |t|
-    t.date "timestamp"
+    t.datetime "timestamp", precision: nil
     t.integer "value"
     t.string "name"
     t.datetime "created_at", null: false
