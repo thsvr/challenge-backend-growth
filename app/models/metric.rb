@@ -4,4 +4,8 @@ class Metric < ApplicationRecord
     validates :timestamp, presence: true
 
     default_scope { order("timestamp ASC") }
+
+    def timestamp
+        self[:timestamp].strftime("%FT%T")
+    end
 end
