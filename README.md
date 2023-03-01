@@ -11,7 +11,7 @@ The metrics will be shown in a timeline and show averages per minute/hour/day an
 ## Requirements
 
 - Ruby '~>3.0.2'
-- Rails '~> ~> 7.0.4'
+- Rails '~> 7.0.4'
 
 ## Install
 
