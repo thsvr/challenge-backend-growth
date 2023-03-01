@@ -1,24 +1,62 @@
-# README
+# Welcome to Factorial Growth Challenge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+The challenge is to build a Frontend + Backend application that allows to post and visualize metrics in a usable way.
 
-* Ruby version
+Each metric have a timestamp, name, and value.
 
-* System dependencies
+The metrics will be shown in a timeline and show averages per minute/hour/day and persisted in the database.
 
-* Configuration
+## Requirements
 
-* Database creation
+- Ruby '~>3.0.2'
+- Rails '~> 7.0.4'
 
-* Database initialization
+## Install
 
-* How to run the test suite
+Clone the repo and then install the needed gems:
 
-* Services (job queues, cache servers, search engines, etc.)
+```console
+bundle install
+```
 
-* Deployment instructions
+Create and Migrate the database:
 
-* ...
+```console
+rails db:create
+rails db:migrate
+```
+
+## Usage
+
+Populate the database:
+
+```console
+rails db:seed
+```
+
+Run the app in a local server:
+
+```console
+rails server
+```
+
+The app will run on http://localhost:3000/api/v1/metrics
+
+## 👌 Features
+
+- _Metrics_
+  - Index / Create.
+
+</br>
+
+</br>
+
+### Author
+
+👤 _Thaís Vieira_
+
+[Github: @thsvr](https://github.com/thsvr)
+
+[Thais' LinkedIn](https://www.linkedin.com/in/vr-ths-zd/)
